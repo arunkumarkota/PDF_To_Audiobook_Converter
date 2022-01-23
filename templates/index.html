@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>PDF To Audio Converter</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--  <script src="./static/app.js" defer></script>-->
+    </head>
+
+    <body style="margin-top:20%" class="text-center">
+        <h1 class="h3 mb-3 font-weight-normal">PDF To Audio Converter</h1>
+        <h1 class="h3 mb-3 font-weight-normal">Upload new File</h1>
+        <form method=post  action = '/uploadDoc' enctype=multipart/form-data>
+          <input style="display: inline" type=file class="btn btn-primary" name=file>
+          <input type=submit class="btn btn-primary" value=Upload>
+        </form>
+    </body>
+</html>
