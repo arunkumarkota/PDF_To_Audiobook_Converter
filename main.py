@@ -8,7 +8,7 @@ import PyPDF2
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = "/Users/arunkota/PycharmProjects/PDF_To_Audio_Book/static"
+UPLOAD_FOLDER = "path_to_your_folder_where_the_document_has_to_be_saved"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 global speak
